@@ -1,9 +1,8 @@
 
-def contar_vogais(texto):
-    count_vogal = 0
-    for letra in texto:
-        if letra.upper() in "AEIOU":
-            count_vogal += 1
-    return count_vogal
+def fatorial(n):
+    res = 1
+    for i in range(1,n+1):
+        res = res * i
+    return res
 
-print(contar_vogais("BRUNO"))
+print (fatorial(5))
